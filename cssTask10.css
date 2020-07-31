@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: #d6aeaea6;
+}
 .container{
     width: 70%;
     margin: 20px auto;
@@ -15,6 +18,8 @@
     line-height: 300px;
     font-size: 2rem;
     background-size: 100% 100%;
+    box-shadow: 0px 0px 15px #000000a6;
+    border-radius: 10px;
 }
 #box1{
     background-image: url("https://cdn.pixabay.com/photo/2020/07/24/06/49/rose-5433077__340.jpg");
