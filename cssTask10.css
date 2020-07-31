@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.box{
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 2rem;
+    background-size: 100% 100%;
+}
+#box1{
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/24/06/49/rose-5433077__340.jpg");
+    
+}
+#box2{
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/21/17/37/flower-5426944__340.jpg");
+}
+#box3{
+    background-image: url("https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830__340.jpg");
+}
+#box4{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509__340.jpg");
+}
+#box5{
+    background-image: url("https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022__340.jpg");
+}
+#box6{
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/05/16/24/rose-3063284__340.jpg");
+}
+#box7{
+    background-image: url("https://cdn.pixabay.com/photo/2018/12/15/02/53/flower-3876195__340.jpg");
+}
+#box8{
+    background-image: url("https://cdn.pixabay.com/photo/2018/06/24/23/21/lily-3495722__340.jpg");
+}
+#box9{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/24/22/11/water-lily-1857350__340.jpg");
+}
+#box10{
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/19/14/40/nature-3092555__340.jpg");
+}
+#box11{
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/12/17/54/anemone-2396299__340.jpg");
+}
+#box12{
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/10/09/41/sage-1507499__340.jpg");
+}
+@media (max-width:668px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (min-width:609px) and (max-width:1023px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
